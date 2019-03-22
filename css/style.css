@@ -1,0 +1,105 @@
+/* Author: Tariq Manon
+
+Mail:menon@coderstrust.com*/
+
+/* 
+====Index======
+
+1.Header Section
+2.Banner/Hero Section
+3.
+4.
+5.
+6.
+
+*/
+
+/*Global css*/
+
+section {
+	padding: 40px 0;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*Header section*/
+.bg-dark {
+    background-color: #edeff1!important;
+}
+.navbar {
+    padding: 40px 0px;
+}
+.nav-link {
+    color: #161616!important;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav 
+.active>.nav-link, 
+.navbar-dark .navbar-nav 
+.nav-link.active, .navbar-dark 
+.navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
+    background: #dd4b2b;
+    padding: 5px 15px;
+    border-radius: 18px;
+    color: #fff!important;
+}
+
+.hero {
+	background:url(../img/banner.png)no-repeat;
+	background-size: cover;
+}
+
+.btn-custom {
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 1px solid;
+    color: #612316;
+}
+
+.newsletter {
+	background:url(../img/newsletter.png)no-repeat;
+	background-size: cover;
+}
+
+.form-control {
+    border-radius: 16px;
+    background-color: transparent;
+    position: relative;
+}
+
+.form-btn {
+    background: #fff;
+    padding: 5px 30px;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    color: darkred;
+    position: absolute;
+    top: 135px;
+    right: 15px;
+}
+
+.one {
+	background-color: maroon;
+	height: 250px;
+	width: 300px;
+}
+
+.two {
+	background-color: green;
+	height: 100px;
+	width: 100px;
+}
+
+::placeholder {
+  color: #fff!important;
+}
